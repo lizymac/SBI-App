@@ -1,0 +1,95 @@
+#grad1 {
+    height: 150px;  
+    background: linear-gradient(orange,white,white,green);
+}
+h1{
+    font-size: 30px; font-weight: bold; text-align: center; color: purple;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-left: 600px;
+    margin-top:-2px;
+}
+#grad2{
+    margin-top: -25px;
+    height: 190px;
+    background: linear-gradient(lightblue,lightblue,lightblue);
+}
+#grad3{
+    height: 50px;
+    background: linear-gradient(lightblue,lightblue,lightblue);
+}
+.text1{
+    color: darkblue; font-weight: bold;padding-top: 12px;
+}
+.text2{
+    text-align: center;
+    color: white;
+    margin-top: -8px;
+}
+.text3{
+    color: purple;
+    text-align: center;  
+    margin-top: 40px; 
+}
+.text4{
+    color: white;
+    text-align: center; padding-top: 12px; font-weight: bolder;
+}
+.text5{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.imageContainer {
+    color: purple;
+    text-align: center;
+    font-size: 20px; font-weight: bolder; 
+    width:300px; 
+    height:25px; 
+    background-image: url(images/back.png);
+}
+.imageContainer1 {
+    color: purple;
+    text-align: center;
+    font-size: 25px; font-weight: bolder; 
+    height:35px; margin-top: 10px;
+    background-image: url(images/back.png);
+    width: 100%
+}
+.imageContainer2 {
+    color: purple;
+    text-align: center;
+    font-size: 20px; font-weight: bold; 
+    width:300px; 
+    height:90px; 
+    background-image: url(images/back.png);
+}
+.img-container {
+    float: left;
+    width: 150px;
+    margin-left: 10px;
+    background-image: url(images/back.png);
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+fieldset{
+    font-size: 15px;
+    font-weight: bold;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: linear-gradient(to right,rgb(114, 198, 231),rgb(189, 212, 221));
+}
+th, td {
+    padding: 35px;
+    text-align: left;   
+    background: linear-gradient(to right,rgb(114, 198, 231),rgb(189, 212, 221));
+}
