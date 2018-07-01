@@ -19,6 +19,11 @@ img{
     margin-left: 600px;
     margin-top:-2px;
 }
+.img_home{
+    width: 300px;
+    margin-left: 490px;margin-top: 2px;
+    margin-bottom: -25px;
+}
 .img_pg2{
     height: 50px; width: 300px;
     margin-left: 490px;margin-top: 20px
@@ -37,8 +42,13 @@ img{
 }
 #grad2{
     margin-top: -25px;
-    height: 190px;
+    height: 200px;
     background: linear-gradient(lightblue,lightblue,lightblue);
+}
+#grad2_home{
+    margin-top: 25px;
+    background: linear-gradient(lightblue,lightblue,lightblue);
+    height: 140px;
 }
 #grad3{
     height: 50px;
@@ -109,6 +119,9 @@ img{
     content: "";
     clear: both;
     display: table;
+}
+.more_services{
+    margin-left: 280px;
 }
 fieldset{
     font-size: 15px;
